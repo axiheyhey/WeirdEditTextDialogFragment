@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/saves_trip_name_entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="为您的旅行命名"
+        android:maxLength="50"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="杏花春雨唱功要在声明中枯枯枯地艺术硕士" />
+</LinearLayout>
