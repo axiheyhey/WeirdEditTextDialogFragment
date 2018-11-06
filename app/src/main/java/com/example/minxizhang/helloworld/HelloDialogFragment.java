@@ -33,6 +33,7 @@ public class HelloDialogFragment extends DialogFragment {
 
         Window window = alertDialog.getWindow();
         if (window != null) {
+            window.clearFlags(LayoutParams.FLAG_TRANSLUCENT_STATUS | LayoutParams.FLAG_FULLSCREEN);
             window.setSoftInputMode(LayoutParams.SOFT_INPUT_STATE_VISIBLE);
         }
 
